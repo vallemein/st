@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "fira-code:pixelsize=16:antialias=true:autohint=true";
-static char *font2[] = { "NotoColorEmoji:pixelsize=16:antialias=true:autohint=true" };
+static char *font = "firacode:pixelsize=14:antialias=true:autohint=true";
+static char *font2[] = { "NotoColorEmoji:pixelsize=14:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -107,7 +107,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 1.0;
 float alphaOffset = 0.0;
 float alphaUnfocus;
 
